@@ -21,7 +21,7 @@ include system/tools/dtbtool/Android.mk
 endif
 
 ifeq ($(strip $(TARGET_CUSTOM_DTBTOOL)),)
-DTBTOOL_NAME := dtbToolBliss
+DTBTOOL_NAME := dtbToolVoltage
 else
 DTBTOOL_NAME := $(TARGET_CUSTOM_DTBTOOL)
 endif
